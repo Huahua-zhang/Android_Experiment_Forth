@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/purple_200">
+    <ImageButton
+        android:id="@+id/ib_back2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/arrow_left"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="30sp"
+        android:text="Love List"
+        android:layout_marginLeft="60dp"/>
+
+</RelativeLayout>
